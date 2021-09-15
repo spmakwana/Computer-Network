@@ -3,13 +3,17 @@
 ## Table of Contents
 
 - [What is Computer Network?](#what-is-computer-network-)
+
 - [Overview of computer network](#overview-of-computer-network)
+
 - [Types of Computer Network](#types-of-computer-network)
   * [LAN](#lan)
   * [MAN](#man)
   * [WAN](#wan)
   * [Wireless Network](#wireless-network)
+  
 - [Usage of computer network](#usage-of-computer-network)
+
 - [Network Architecture](#network-architecture)
   * [Centralized Network (Client Server Network)](#centralized-network--client-server-network-)
     + [Advantages](#advantages)
@@ -17,13 +21,25 @@
   * [Peer to Peer Network](#peer-to-peer-network)
     + [Advantages](#advantages-1)
     * [Disadvantages](#disadvantages-1)
+  
 - [Line Configuration](#line-configuration)
   * [Point to Point Configuration](#point-to-point-configuration)
   * [Multipoint Configuration](#multipoint-configuration)
     + [Spatial Sharing](#spatial-sharing)
     + [Temporal (Time) Sharing](#temporal--time--sharing)
+  
 - [Network Server](#network-server)
+
 - [Types of Network Server](#types-of-network-server)
+  * [Web Server](#web-server)
+  * [Application Server](#application-server)
+  * [Database Server](#database-server)
+  * [FTP Server](#ftp-server)
+  * [Proxy Server](#proxy-server)
+  * [Streaming Server](#streaming-server)
+  * [Fax Server](#fax-server)
+  * [List Server](#list-server)
+  * [Telnet Server](#telnet-server)
 
 
 
@@ -78,7 +94,7 @@ Network architecture can be categorized into two categories.
 - The computers that are connected to the mainframe or server are called Clients or Nodes.
 - These nodes are not connected to each other; they are only connected to central server.
 
-![Client Server Network](https://user-images.githubusercontent.com/4832630/127463329-1df7bb51-d3c1-4bd3-a926-521ca3ef5dcf.png)
+![Client Server Network](images/Client%20Server%20Network.png)
 
 Image Source: https://logisticsmgepsupv.wordpress.com/2019/05/13/centralized-distribution-network/
 
@@ -91,7 +107,7 @@ Image Source: https://logisticsmgepsupv.wordpress.com/2019/05/13/centralized-dis
 
 ### Disadvantages
 
-- Single point of failure – If Server fails whole network goes down and stopped working.
+- Single point of failure â€“ If Server fails whole network goes down and stopped working.
 
 ## Peer to Peer Network
 
@@ -100,7 +116,7 @@ Image Source: https://logisticsmgepsupv.wordpress.com/2019/05/13/centralized-dis
 - All computers has almost same computing and storage capacity.
 - In peer to peer network, computer does not rely on server for computing or storage as all computer has own computing power and storage
 
-![991px-P2P-network svg](https://user-images.githubusercontent.com/4832630/127473164-403e3415-a482-4e32-b322-d098e83d8941.png)
+![991px-P2P-network.svg](images/991px-P2P-network.svg.png)
 
 Image Source: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/P2P-network.svg/991px-P2P-network.svg.png
 
@@ -134,7 +150,7 @@ Image Source: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/P2P-netw
 - E.g. Two PC are connected with a LAN cable.
 - E.g. Two phones are connected via Bluetooth.
 
-![Point to Point Configuration](https://user-images.githubusercontent.com/4832630/127472788-f4627696-6f08-4f91-a618-692a79151b38.png)
+![Point to Point Configuration](images/Point%20to%20Point%20Configuration.png)
 
 Image Source: http://mucins.weebly.com/21-line-configuration.html
 
@@ -144,7 +160,7 @@ Image Source: http://mucins.weebly.com/21-line-configuration.html
 - In multipoint one or more than two devices share a single line (link) of the channel for transmission of data.
 - Basically, same channel is shared by multiple devices.
 
-![Multipoint Configuration](https://user-images.githubusercontent.com/4832630/127473023-df51d2a4-a4ed-455b-b215-30c827b3a86e.png)
+![Multipoint Configuration](images/Multipoint%20Configuration.png)
 Image Source: http://mucins.weebly.com/21-line-configuration.html
 
 - Two possibilities in multipoint line configuration
@@ -154,7 +170,7 @@ Image Source: http://mucins.weebly.com/21-line-configuration.html
 ### Spatial Sharing
 
 - If several devices share the link simultaneously, it called spatially shared line configuration.
-- Here each devices don’t get full bandwidth of channel for data transfer as same channel is shared by all devices.
+- Here each devices donâ€™t get full bandwidth of channel for data transfer as same channel is shared by all devices.
 
 ### Temporal (Time) Sharing
 
@@ -185,3 +201,59 @@ Image Source: http://mucins.weebly.com/21-line-configuration.html
 - Fax Server
 - List Server
 - Telnet Server
+
+## Web Server
+
+- A web server is a server that runs a website. 
+- Main function of web server is to store, process and deliver the website data to the clients.
+- Whenever we search or visits website on the internet through web, that requests are full filled by the webserver.
+- Web server software generally uses HTTP and HTTPs protocols which is used to serve the web pages.
+- The email server provides the facility of sending emails to the receiver and to receive email from the sender.
+- Also it stores all the details and messages of the user on the server.
+- It generally use the SMTP protocol to send/receive emails.
+
+## Application Server
+
+- Application Server is a framework, it is an environment where application runs.
+- Application server includes a server operating system and server grades hardware that provides computing-intensive operations and other services to the client.
+
+## Database Server
+
+- Database server is the computer which provides the services related to retrieval and accessing the data from the database.
+- User query the database to modify or access the data and database server sends the response to the user.
+
+## FTP Server
+
+- FTP stands for File Transfer Protocol.
+- It is used to send / receive file from one computer to another computer.
+- Generally FTP server are used as storage devices where user can store the data on a central server.
+
+## Proxy Server
+
+- Proxy Server commonly known as proxy.
+- It acts as a bridge between user and internet.
+- This types of server used for performance enhancement, privacy and anonymity improvement.
+- Proxy server also used for data filtering and data caching.
+
+## Streaming Server
+
+- Streaming server is generally used to stream multimedia over the internet.
+- Websites like YouTube, Netflix, etc. uses streaming server to stream movies / tv series etc. to the users.
+- Streaming server need lots of bandwidth and data storage to server the content.
+
+## Fax Server
+
+- Fax Server is capable of sending and receiving fax over the internet (sometime it can also work over the telephone line).
+- This types of server commonly used in large scale organization. Because it reduce incoming and outgoing telephone resources and thus saving time and money of organization.
+
+## List Server
+
+- List servers are good at handling mailing list.
+- Generally used to deliver online newspaper, banking statements, etc.
+- It handles a subscription request of a user, user can send the subscription/un-subscription request to receive or not to receive the information.
+
+## Telnet Server
+
+- Telnet is simple, text based network protocol that is used to access remote computer/devices over the internet.
+- It connects you to remote computer via TCP/IP.
+- It is used to manage remote computer or devices like hubs, switch, routers etc.
