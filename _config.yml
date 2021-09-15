@@ -5,4 +5,4 @@ relative_links:
   collections: true
 include:
   01CourseIntroduction.md
-theme: jekyll-theme-modernist
+theme: jekyll-theme-cayman
